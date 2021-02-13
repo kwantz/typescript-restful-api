@@ -1,0 +1,32 @@
+{
+  "clearMocks": true,
+
+  "moduleFileExtensions": [
+    "js",
+    "jsx",
+    "ts",
+    "tsx"
+  ],
+
+  "moduleNameMapper": {
+    "@configs/(.*)": "<rootDir>/src/configs/$1",
+    "@controllers/(.*)": "<rootDir>/src/controllers/$1",
+    "@entities/(.*)": "<rootDir>/src/entities/$1",
+    "@errors/(.*)": "<rootDir>/src/errors/$1",
+    "@loaders/(.*)": "<rootDir>/src/loaders/$1",
+    "@middlewares/(.*)": "<rootDir>/src/middlewares/$1",
+    "@models/(.*)": "<rootDir>/src/models/$1",
+    "@repositories/(.*)": "<rootDir>/src/repositories/$1",
+    "@services/(.*)": "<rootDir>/src/services/$1",
+    "@types/(.*)": "<rootDir>/src/types/$1",
+    "@utils/(.*)": "<rootDir>/src/utils/$1"
+  },
+
+  "roots": ["<rootDir>/src"],
+
+  "testEnvironment": "node",
+
+  "transform": {
+    "^.+\\.tsx?$": "ts-jest"
+  }
+}
